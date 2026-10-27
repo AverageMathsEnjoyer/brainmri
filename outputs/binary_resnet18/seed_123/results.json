@@ -1,0 +1,41 @@
+{
+  "seed": 123,
+  "best_epoch": 24,
+  "epochs_run": 29,
+  "best_val_macro_f1": 0.9854544663919902,
+  "train_time_s": 1397.1458144187927,
+  "class_weights": {
+    "Tumor": 0.5763369202613831,
+    "No_Tumor": 3.7749545574188232
+  },
+  "metrics": {
+    "mendeley_val": {
+      "macro_f1": 0.9854544663919902,
+      "accuracy": 0.9932735426008968,
+      "per_class_f1": {
+        "Tumor": 0.9961190168175937,
+        "No_Tumor": 0.9747899159663865
+      }
+    },
+    "mendeley_test": {
+      "macro_f1": 0.9878291536264742,
+      "accuracy": 0.9943757030371203,
+      "per_class_f1": {
+        "Tumor": 0.9967553536664504,
+        "No_Tumor": 0.9789029535864979
+      }
+    },
+    "kaggle_test": {
+      "macro_f1": 0.9925433070743821,
+      "accuracy": 0.994375,
+      "per_class_f1": {
+        "Tumor": 0.9962390305056414,
+        "No_Tumor": 0.9888475836431226
+      }
+    }
+  },
+  "generalisation_gap": {
+    "macro_f1": -0.004714153447907932,
+    "accuracy": 7.030371202976227e-07
+  }
+}
