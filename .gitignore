@@ -1,0 +1,12 @@
+/kaggle/
+/mendeley/
+/sartaj/
+
+/cache/
+/.cache/
+/experiments.ipynb
+/experiments.ipynb
+/__pycache__/
+/.ipynb_checkpoints/
+**/__pycache__/
+**/.ipynb_checkpoints/
