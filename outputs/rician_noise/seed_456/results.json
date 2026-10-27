@@ -1,0 +1,155 @@
+{
+  "arm": "rician_noise",
+  "seed": 456,
+  "best_epoch": 18,
+  "epochs_run": 19,
+  "best_val_macro_f1": 0.9826032127302868,
+  "train_time_s": 244.40772938728333,
+  "class_weights": {
+    "glioma": 0.6779661178588867,
+    "meningioma": 1.0048309564590454,
+    "no_tumor": 1.8874772787094116,
+    "pituitary": 1.0
+  },
+  "sim_threshold": 0.9,
+  "metrics": {
+    "mendeley_val": {
+      "macro_f1": 0.9826032127302868,
+      "accuracy": 0.9831838565022422,
+      "macro_precision": 0.9826032127302868,
+      "macro_recall": 0.9826032127302868,
+      "weighted_f1": 0.9831838565022422,
+      "macro_f2": 0.9826032127302868,
+      "per_class_f1": {
+        "glioma": 0.9878419452887538,
+        "meningioma": 0.972972972972973,
+        "no_tumor": 0.9830508474576272,
+        "pituitary": 0.9865470852017937
+      },
+      "confusion_matrix": [
+        [
+          325,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          216,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          116,
+          1
+        ],
+        [
+          0,
+          3,
+          0,
+          220
+        ]
+      ]
+    },
+    "mendeley_test": {
+      "macro_f1": 0.977960189946116,
+      "accuracy": 0.9763779527559056,
+      "macro_precision": 0.9788936181944656,
+      "macro_recall": 0.9771173413105847,
+      "weighted_f1": 0.9763195012055448,
+      "macro_f2": 0.9774437070371077,
+      "per_class_f1": {
+        "glioma": 0.9773071104387292,
+        "meningioma": 0.9565217391304348,
+        "no_tumor": 0.9915254237288136,
+        "pituitary": 0.9864864864864865
+      },
+      "confusion_matrix": [
+        [
+          323,
+          4,
+          0,
+          1
+        ],
+        [
+          9,
+          209,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          117,
+          0
+        ],
+        [
+          0,
+          3,
+          0,
+          219
+        ]
+      ]
+    },
+    "kaggle_test": {
+      "macro_f1": 0.9753783903305677,
+      "accuracy": 0.9740932642487047,
+      "macro_precision": 0.9747521047516365,
+      "macro_recall": 0.9760509173113172,
+      "weighted_f1": 0.9740500458319449,
+      "macro_f2": 0.9757763491187698,
+      "per_class_f1": {
+        "glioma": 0.9663608562691132,
+        "meningioma": 0.9618320610687023,
+        "no_tumor": 0.9925925925925926,
+        "pituitary": 0.9807280513918629
+      },
+      "confusion_matrix": [
+        [
+          316,
+          10,
+          0,
+          3
+        ],
+        [
+          7,
+          315,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          268,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          229
+        ]
+      ]
+    }
+  },
+  "kaggle_eval_detail": {
+    "n_total": 6997,
+    "n_kept": 1158,
+    "n_kept_by_source": {
+      "kaggle_train": 918,
+      "kaggle_test": 240
+    },
+    "n_dropped_aug": 0,
+    "n_dropped_near_dup": 5839
+  },
+  "generalisation_gap": {
+    "macro_f1": 0.0025817996155482748,
+    "accuracy": 0.0022846885072008716,
+    "macro_precision": 0.004141513442829092,
+    "macro_recall": 0.001066423999267485,
+    "weighted_f1": 0.0022694553735999046,
+    "macro_f2": 0.0016673579183379417
+  }
+}
